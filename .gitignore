@@ -73,3 +73,20 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# IDE files
+*.sln
+*.slnx
+.idea/
+
+# For non prog users
+# Project
+!Binaries/Win64
+Binaries/Win64/*
+!Binaries/Win64/UnrealJAM3DJVEditor.target
+!Binaries/Win64/UnrealEditor.modules
+!Binaries/Win64/UnrealEditor-UnrealJAM3DJV.dll
+
+# Plugins
+!Plugins/**/Binaries/Win64/*.dll
+!Plugins/**/Binaries/Win64/*.modules
