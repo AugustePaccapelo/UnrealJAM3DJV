@@ -90,3 +90,4 @@ Binaries/Win64/*
 # Plugins
 !Plugins/**/Binaries/Win64/*.dll
 !Plugins/**/Binaries/Win64/*.modules
+Windows
